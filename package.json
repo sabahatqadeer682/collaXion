@@ -1,7 +1,7 @@
 {
-  "name": "collaxion",
+  "name": "collaXion",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,23 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-navigation/native": "^7.1.17",
-    "@react-navigation/native-stack": "^7.3.25",
-    "expo": "~53.0.20",
-    "expo-linear-gradient": "^14.1.5",
-    "expo-router": "^5.1.4",
-    "expo-status-bar": "~2.2.3",
-    "nativewind": "^4.1.23",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "react": "19.0.0",
-    "react-native": "0.79.5",
-    "react-native-reanimated": "~3.17.4",
-    "react-native-safe-area-context": "^5.6.0",
-    "react-native-screens": "^4.14.1",
-    "tailwindcss": "^3.4.17"
+    "expo": "~50.1.0",
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+    "@types/react": "~19.0.10",
+    "@types/react-native": "~0.72.2",
+    "typescript": "~5.8.3"
+  }
 }
